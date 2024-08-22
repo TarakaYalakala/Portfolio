@@ -15,7 +15,7 @@ function Footer() {
                 <a href='/' className="font-icon"><i className="fa-solid fa-envelope fa-2xl" style={{color: "white",cursor:"pointer"}}></i></a>
                 </div>
                 <div className="self">
-                  Copyrights@2024|Taraka
+                  @2024 Taraka |All Rights reserved
                 </div>
             </div>
         </div>

@@ -22,6 +22,13 @@ function Home() {
   }, [])
   
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '../assets/Taraka_resume_(1).pdf'; // Path to your PDF file
+    link.download = 'Taraka_resume_(1).pdf';  // The name of the downloaded file
+    link.click();
+  };
+
 
 
   return (
@@ -58,40 +65,78 @@ function Home() {
           </div>
            <div className="info-sa">A passionate Full stack developer</div>
            <p className='para-abt'>With good command in Desgin and Development,  I specialize in crafting engaging and responsive web applications using MongoDB, Express.js, React.js, and Node.js.</p>
-           <button className='abt-btn'>DOwnload CV <i className="fa-solid fa-download fa-xl"></i></button>
+           <button className='abt-btn' onClick={handleDownload}>Download CV <i className="fa-solid fa-download fa-xl"></i></button>
           </div>
           <span style={{fontSize:"35px",margin:"25px"}}>Skills</span>
           <div className="skills">
              <div className="fnt sks" data-aos="fade-up">
             <div className="frontend ">Frontend</div>
-            <label htmlFor="" className='label'>HTML</label>
-            <input type="range" className='input-range' value="90" disabled/>
-            <span>90%</span>
+            <div className="tab">
+              <div className="tml">HTML</div>
+              <div className="percen">90%</div>
+            </div>
             <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range2"></div>
+                </div>
+            </section>
             <br />
-            <label htmlFor="" className='label'>Css</label>
-            <input type="range" className='input-range' value="80" disabled/>
-            <span>80%</span>
+            <div className="tab">
+              <div className="tml">Css</div>
+              <div className="percen">80%</div>
+            </div>
             <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
+            
             <br />
-            <label htmlFor="" className='label'>React.js</label>
-            <input type="range" className='input-range' value="80" disabled/>
-            <span>80%</span>
+            <div className="tab">
+              <div className="tml">React.js</div>
+              <div className="percen">80%</div>
+            </div>
             <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
             <br />
-            <label htmlFor="" className='label'>Redux-Toolkit</label>
-            <input type="range" className='input-range' value="70" disabled/>
-            <span>70%</span>
+            <div className="tab">
+              <div className="tml">Redux</div>
+              <div className="percen">70%</div>
+            </div>
             <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range70"></div>
+                </div>
+            </section>
             <br />
-            <label htmlFor="" className='label'>Tailwind</label>
-            <input type="range" className='input-range' value="70" disabled/>
-            <span>70%</span>
+            <div className="tab">
+              <div className="tml">Tailwind</div>
+              <div className="percen">70%</div>
+            </div>
             <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range70"></div>
+                </div>
+            </section>
             <br />
-            <label htmlFor="" className='label'>Bootstrap</label>
-            <input type="range" className='input-range' value="90" disabled/>
-            <span>90%</span>
+            <div className="tab">
+              <div className="tml">Bootstrap</div>
+              <div className="percen">90%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range2"></div>
+                </div>
+            </section>
             <br />
             <br />
             </div>
@@ -99,19 +144,40 @@ function Home() {
             <div className="backend">
               Backend
             </div>
-            <label htmlFor="" className='label'>Express.js</label>
-            <input type="range" className='input-range' value="80" disabled/>
-            <span>80%</span>
+            <div className="tab">
+              <div className="tml">Express.js</div>
+              <div className="percen">80%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
             <br />
             <br />
-            <label htmlFor="" className='label'>Node.js</label>
-            <input type="range" className='input-range' value="70" disabled/>
-            <span>70%</span>
+            <div className="tab">
+              <div className="tml">Node.js</div>
+              <div className="percen">80%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
             <br />
             <br />
-            <label htmlFor="" className='label'>MongoDB</label>
-            <input type="range" className='input-range' value="80" disabled/>
-            <span>80%</span>
+            <div className="tab">
+              <div className="tml">MongoDB</div>
+              <div className="percen">70%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range70"></div>
+                </div>
+            </section>
             <br />
             <br />
             </div>
@@ -119,24 +185,63 @@ function Home() {
             <div className="backend">
               Tools
             </div>
-            <label htmlFor="" className='label'>Docker</label>
-            <input type="range" className='input-range' value="70" disabled/>
-            <span>70%</span>
+            <div className="tab">
+              <div className="tml">Docker</div>
+              <div className="percen">70%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range70"></div>
+                </div>
+            </section>
             <br />
             <br />
-            <label htmlFor="" className='label'>Meterial-Ui</label>
-            <input type="range" className='input-range' value="70" disabled/>
-            <span>70%</span>
+            <div className="tab">
+              <div className="tml">Meterial-Ui</div>
+              <div className="percen">70%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range70"></div>
+                </div>
+            </section>
             <br />
             <br />
-            <label htmlFor="" className='label'>Javascript</label>
-            <input type="range" className='input-range' value="80" disabled/>
-            <span>80%</span>
+            <div className="tab">
+              <div className="tml">Javascript</div>
+              <div className="percen">80%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
             <br />
             <br />
-            <label htmlFor="" className='label'>Vercel</label>
-            <input type="range" className='input-range' value={70} disabled/>
-            <span>70%</span>
+            <div className="tab">
+              <div className="tml">Vercel</div>
+              <div className="percen">80%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
+            <br />
+            <div className="tab">
+              <div className="tml">Git&Github</div>
+              <div className="percen">80%</div>
+            </div>
+            <br />
+            <section className='bar'>
+                <div className="range1">
+                  <div className="range80"></div>
+                </div>
+            </section>
             </div>
           </div>
           <div className="projects">
@@ -210,21 +315,3 @@ export default Home
 
 
 
-// import React from 'react';
-
-// const DownloadResumeButton = () => {
-//   const handleDownload = () => {
-//     const link = document.createElement('a');
-//     link.href = '/assets/resume.pdf'; // Path to your PDF file
-//     link.download = 'My_Resume.pdf';  // The name of the downloaded file
-//     link.click();
-//   };
-
-//   return (
-//     <button onClick={handleDownload}>
-//       Download My Resume
-//     </button>
-//   );
-// };
-
-// export default DownloadResumeButton;
