@@ -21,7 +21,7 @@ function About() {
            <p> My name is Taraka, a passionate web developer with profound knowledge of web development,
              with a primary focus on frontend development. I specialize in creating interactive and
               responsive web applications using React.js, Express.js, Node.js, and MongoDB, and
-               containerizing them using Docker.and Devops enthusiastic</p>
+               containerizing them using Docker. and Devops enthusiastic.</p>
                <h3>Tools</h3>
                <p>My primary tech stack includes React.js and JavaScript for the frontend, and Node.js and Express.js for the backend. Here are some tools that I usually use
             </p>
@@ -70,8 +70,8 @@ function About() {
                     </div>
             </div>
             <div className="edu">
-               <p>Education</p>
-               <li>Studied B.sc Computer Science at Aditya Degree college palakol with aggregate of 7.6</li>
+               <p className='educ-name'>Education</p>
+               <li className='com-info'>Studied B.sc Computer Science at Aditya Degree college palakol with aggregate of 7.6</li>
             </div>
             </div>
             <hr />

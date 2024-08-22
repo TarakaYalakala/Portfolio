@@ -2,6 +2,7 @@ import React from 'react'
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
 import Home from './Components/Home'
 import About from './Components/About'
+import Blog from './Components/Blog'
 
 function App() {
 
@@ -13,6 +14,10 @@ function App() {
     {
       path:"/about",
       element:<><About /></>
+    },
+    {
+      path:"/blog",
+      element:<><Blog/></>
     }
   ])
 

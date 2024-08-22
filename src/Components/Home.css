@@ -45,6 +45,45 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.range1 {
+    height: 10px;
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.range2 {
+    height: 10px;
+    width: 240px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.range80{
+    height: 10px;
+    width: 85%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.range70{
+    height: 10px;
+    width: 75%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.bar {
+    margin-left: 20px;
+}
+
 
 @keyframes rotateImage {
     from {
@@ -163,7 +202,7 @@ body {
     margin: 30px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -174,14 +213,14 @@ body {
 }
 
 .input-range{
-    width: 220px;
+    width: 200px;
     margin: 10px;
-    transition: all 1.5s ease-in-out,
 }
 
-@media screen and (max-width: 400){
+
+@media screen and (max-width: 430){
     .input-range {
-        width: 150px;
+        width: 120px;
     }
 }
 
@@ -196,11 +235,13 @@ body {
 }
 
 .sks {
-    height: 26rem;
+    height: auto;
     width: auto;
     margin: 10px;
     background-color: rgb(24, 6, 6);
     border-radius: 7px;
+    padding: 15px;
+    padding-bottom: 10px;
 }
 
 .pgt-rsm{
@@ -211,7 +252,7 @@ body {
 
 @media screen and (max-width: 400px){
     .sks {
-        height: 26rem;
+        height: auto;
     }
     .fnt {
         height: 30rem;

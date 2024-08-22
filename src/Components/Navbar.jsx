@@ -53,7 +53,7 @@ function Navbar() {
         <ul>
           <li className='list-nav-one'><Link to="/" onClick={togglePlay}>Home</Link></li>
           <li className='list-nav-two'><Link to="/about" onClick={togglePlay}>About</Link></li>
-          <li className='list-nav-three'><Link to="/" onClick={togglePlay}>Blog</Link></li>
+          <li className='list-nav-three'><Link to="/blog" onClick={togglePlay}>Blog</Link></li>
         </ul>
       </div>}
     </div>
