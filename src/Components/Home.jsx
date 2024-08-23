@@ -198,7 +198,7 @@ function Home() {
             <br />
             <br />
             <div className="tab">
-              <div className="tml">Material UI</div>
+              <div className="tml">Material-UI</div>
               <div className="percen">70%</div>
             </div>
             <br />
