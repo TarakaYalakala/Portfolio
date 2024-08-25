@@ -84,7 +84,9 @@ function About() {
                 <p style={{fontWeight:"300",fontFamily:"Josefin Sans,sans-serif"}}>May-Aug 2023</p>
               </section>
               </div>
+              <br />
     </div>
+
             <hr />
           <marquee behavior="scroll" direction="right" scrollamount="15">
       <p style={{fontSize:"30px",fontFamily:"sans-serif",fontWeight:"400"}}>Interested in connecting? Let's network on LinkedIn.</p>
