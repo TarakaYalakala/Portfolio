@@ -9,7 +9,7 @@ function About() {
     <div>
         <div className="abt-main">
             <div className="link-icon">
-                <a href='/'><i className="fa-solid fa-arrow-left fa-xl" style={{color:"white"}}></i></a>
+                <Link to='/'><i className="fa-solid fa-arrow-left fa-xl" style={{color:"white"}}></i></Link>
             </div>
             <div className="abt-img">
                 <img src={myimg} alt="My_image" style={{height:"100%",width:"100%",borderRadius:"10px"}}/>
