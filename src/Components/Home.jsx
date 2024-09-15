@@ -24,7 +24,7 @@ function Home() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '../assets/Taraka_resume_(1).pdf'; // Path to your PDF file
+    link.href = '../assets/Taraka_resume_(1) (2).pdf'; // Path to your PDF file
     link.download = 'Taraka_resume_(1).pdf';  // The name of the downloaded file
     link.click();
   };
