@@ -36,7 +36,7 @@ function Home() {
         <Navbar/>
         <div className="about">
           <div className="dev">
-            <div>Hi,I'm <span style={{fontFamily:"sans-serif",fontSize:"45px",color:"#569fe3"}}>Tarak</span></div>
+            <div>Hi,I'm <span style={{fontFamily:"sans-serif",fontSize:"45px",color:"#569fe3",cursor:"pointer"}}>Tarak</span></div>
           </div>
           <p style={{textAlign:"center",fontSize:"30px"}}>Enthusiastic Frontend Developer passionate about building interactive and user-friendly web applications.</p>
 
