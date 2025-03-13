@@ -24,7 +24,7 @@ function Home() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '../assets/Taraka_resume_(1).pdf'; // Path to your PDF file
+    link.href = '../assets/Taraka_resume_(1) (2).pdf'; // Path to your PDF file
     link.download = 'Taraka_resume_(1).pdf';  // The name of the downloaded file
     link.click();
   };
@@ -48,7 +48,7 @@ function Home() {
             <div className="context-avl">
             Avaliable for Fulltime job
             <br />
-            <Link to="/" className='connect'>Lets Connect</Link>
+            <Link to="/https://www.linkedin.com/in/taraka-y-aa3624255/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='connect'>Lets Connect</Link>
             </div>
           </div>
           <div className="abt-me" data-aos="zoom-in-up">
@@ -59,6 +59,8 @@ function Home() {
           <div className="info-details">
   Hi, I'm <span style={{fontSize:"40px",color:"rgb(173, 94, 247)",fontWeight:"750"}}>Taraka</span>
 </div>
+          
+
            <div className="info-sa">A passionate Full stack developer</div>
            <p className='para-abt'>With good command in Desgin and Development,  I specialize in crafting engaging and responsive web applications using MongoDB, Express.js, React.js, and Node.js,Java,MySql.</p>
            <button className='abt-btn' onClick={handleDownload}>Download CV <i className="fa-solid fa-download fa-xl"></i></button>
@@ -194,7 +196,7 @@ function Home() {
             <br />
             <br />
             <div className="tab">
-              <div className="tml">Meterial-Ui</div>
+              <div className="tml">Material-UI</div>
               <div className="percen">70%</div>
             </div>
             <br />
@@ -249,7 +251,7 @@ function Home() {
                </div>
                <div className='flex-diff'>
                <span className='store'>F1-store</span>
-               <p className='store-info'>E-commerce site where you can pick your F-1 T-shirt's</p>
+               <p className='store-info'>A Fully functional Full stack E-commerce site.</p>
                <div className="tech">
                 <ul>
                   <li data-aos="flip-left">React.js</li>
@@ -294,7 +296,7 @@ function Home() {
              </div>
           </div>
           <hr />
-          <marquee behavior="scroll" direction="right" scrollamount="15">
+          <marquee behavior="scroll" direction="left" scrollamount="15">
       <p style={{fontSize:"35px",fontFamily:"sans-serif",fontWeight:"700"}}>Interested in connecting? Let's network on LinkedIn.</p>
     </marquee>
     <hr />

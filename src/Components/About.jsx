@@ -9,7 +9,7 @@ function About() {
     <div>
         <div className="abt-main">
             <div className="link-icon">
-                <a href='/'><i className="fa-solid fa-arrow-left fa-xl" style={{color:"white"}}></i></a>
+                <Link to='/'><i className="fa-solid fa-arrow-left fa-xl" style={{color:"white"}}></i></Link>
             </div>
             <div className="abt-img">
                 <img src={myimg} alt="My_image" style={{height:"100%",width:"100%",borderRadius:"10px"}}/>
@@ -73,7 +73,20 @@ function About() {
                <p className='educ-name'>Education</p>
                <li className='com-info'>Studied B.sc Computer Science at Aditya Degree college palakol with aggregate of 7.6</li>
             </div>
-            </div>
+            <div className="intern">
+              <p className='intern-p'>Internship</p>
+              <section className="intern-box">
+                <p className='role'>Worked as Aws Engineer intern</p>
+                <p className='company'>at Softtech solutions (Vizag)</p>
+                <hr />
+                <p className='job'>Deployed code in Amazon Ec2 and S3</p>
+                <hr />
+                <p style={{fontWeight:"300",fontFamily:"Josefin Sans,sans-serif"}}>May-Aug 2023</p>
+              </section>
+              </div>
+              <br />
+    </div>
+
             <hr />
           <marquee behavior="scroll" direction="right" scrollamount="15">
       <p style={{fontSize:"30px",fontFamily:"sans-serif",fontWeight:"400"}}>Interested in connecting? Let's network on LinkedIn.</p>
