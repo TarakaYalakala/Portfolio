@@ -61,7 +61,7 @@ function Home() {
             About me
           </div>
           <div className="info-details">
-            Hi, I am <span style={{fontSize:"40px",color:"rgb(173, 94, 247)",fontWeight:"750"}}>Taraka</span>
+            Hi,I am <span style={{fontSize:"40px",color:"rgb(173, 94, 247)",fontWeight:"750"}}>Taraka</span>
           </div>
            <div className="info-sa">A passionate Full stack developer</div>
            <p className='para-abt'>With good command in Desgin and Development,  I specialize in crafting engaging and responsive web applications using MongoDB, Express.js, React.js, and Node.js.</p>
