@@ -41,10 +41,7 @@ function Home() {
           <p style={{textAlign:"center",fontSize:"30px"}}>Enthusiastic Frontend Developer passionate about building interactive and user-friendly web applications.</p>
 
           <br />
-          {/* <div className="img-h">
-            <img src={myimg} alt="My_img" style={{height:"100%",width:"100%"}}/>
-          </div> */}
-          <div className="aval">
+                   <div className="aval">
             <div className="aval-img" data-aos="zoom-in">
               <img src={reactic} alt="react_img" className='image-avl' style={{height:"100%",width:"100%",cursor:"pointer"}}/>
               </div>
@@ -60,8 +57,8 @@ function Home() {
             About me
           </div>
           <div className="info-details">
-            Hi,I'm <span style={{fontSize:"40px",color:"rgb(173, 94, 247)",fontWeight:"750"}}>Taraka</span>
-          </div>
+  Hi, I'm <span style={{fontSize:"40px",color:"rgb(173, 94, 247)",fontWeight:"750"}}>Taraka</span>
+</div>
            <div className="info-sa">A passionate Full stack developer</div>
            <p className='para-abt'>With good command in Desgin and Development,  I specialize in crafting engaging and responsive web applications using MongoDB, Express.js, React.js, and Node.js,Java,MySql.</p>
            <button className='abt-btn' onClick={handleDownload}>Download CV <i className="fa-solid fa-download fa-xl"></i></button>
